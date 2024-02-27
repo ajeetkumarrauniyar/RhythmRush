@@ -4,7 +4,7 @@ RhythmRush is an interactive drum kit project created using vanilla JavaScript. 
 
 ## Demo
 
-[Link to Demo](#) <!-- Add a link to the live demo or a video demonstration -->
+[Link to Demo](https://ajeetkumarrauniyar.github.io/RhythmRush/) <!-- Add a link to the live demo or a video demonstration -->
 
 ## Features
 
