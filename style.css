@@ -9,9 +9,11 @@ body {
   background-size: cover;
   align-items: center;
   background-repeat: no-repeat;
+  min-width: 99vw;
+  min-height: 99vh;
 }
 
-.key-box {
+.key_box {
   display: flex;
   flex: 1;
   min-height: 99vh;
@@ -53,4 +55,19 @@ p {
   transform: scale(1.1);
   border-color: #f7e83a;
   box-shadow: 0 0 10px #f7e83a;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: url("/assets/background-mobile.jpg");
+    background-size: auto;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-width: 99vw;
+    min-height: 99vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  /* CSS rules for screens with a minimum width of 768 pixels and landscape orientation */
 }
